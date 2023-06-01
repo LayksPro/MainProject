@@ -1,18 +1,11 @@
 package main
 
-import (
-	"fmt"
-	"os"
-)
+import "fmt"
+
+func star() {
+	fmt.Println(5 + 7)
+}
 
 func main() {
-	var name string
-	var age int
-	fmt.Print("Введите имя: ")
-	fmt.Fscan(os.Stdin, &name)
-
-	fmt.Print("Введите возраст: ")
-	fmt.Fscan(os.Stdin, &age)
-
-	fmt.Println(name, age)
+	star()
 }
