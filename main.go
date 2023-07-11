@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"log"
-
 	"github.com/360EntSecGroup-Skylar/excelize"
 	"github.com/levigross/grequests"
+	"log"
 )
 
 func main() {
